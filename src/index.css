@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Poppins:wght@100..900&display=swap');
+
+@import "tailwindcss";
+
+@theme {
+  --font-outfit: "Outfit", sans-serif;
+  --font-poppins: "Poppins", sans-serif;
+  --font-georgia-brush: "Georgia Brush", sans-serif;
+}
+
+html {
+  scrollbar-width: none;
+}
+
+html::-webkit-scrollbar {
+  display: none;
+}
